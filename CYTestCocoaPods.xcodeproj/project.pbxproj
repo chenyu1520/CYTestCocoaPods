@@ -13,6 +13,7 @@
 		DDCD7C3720010EFD00A1C0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCD7C3620010EFD00A1C0E9 /* Assets.xcassets */; };
 		DDCD7C3A20010EFD00A1C0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCD7C3820010EFD00A1C0E9 /* LaunchScreen.storyboard */; };
 		DDCD7C3D20010EFD00A1C0E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7C3C20010EFD00A1C0E9 /* main.m */; };
+		DDCD7C4620010F8400A1C0E9 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCD7C4520010F8400A1C0E9 /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DDCD7C3920010EFD00A1C0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDCD7C3B20010EFD00A1C0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDCD7C3C20010EFD00A1C0E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCD7C4420010F8400A1C0E9 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		DDCD7C4520010F8400A1C0E9 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		DDCD7C2C20010EFD00A1C0E9 /* CYTestCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
+				DDCD7C4320010F8400A1C0E9 /* MyTest */,
 				DDCD7C2D20010EFD00A1C0E9 /* AppDelegate.h */,
 				DDCD7C2E20010EFD00A1C0E9 /* AppDelegate.m */,
 				DDCD7C3020010EFD00A1C0E9 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				DDCD7C3C20010EFD00A1C0E9 /* main.m */,
 			);
 			path = CYTestCocoaPods;
+			sourceTree = "<group>";
+		};
+		DDCD7C4320010F8400A1C0E9 /* MyTest */ = {
+			isa = PBXGroup;
+			children = (
+				DDCD7C4420010F8400A1C0E9 /* MyView.h */,
+				DDCD7C4520010F8400A1C0E9 /* MyView.m */,
+			);
+			path = MyTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDCD7C4620010F8400A1C0E9 /* MyView.m in Sources */,
 				DDCD7C3220010EFD00A1C0E9 /* ViewController.m in Sources */,
 				DDCD7C3D20010EFD00A1C0E9 /* main.m in Sources */,
 				DDCD7C2F20010EFD00A1C0E9 /* AppDelegate.m in Sources */,

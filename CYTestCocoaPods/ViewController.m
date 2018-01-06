@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "MyView.h"
+
 @interface ViewController ()
 
 @end
@@ -16,7 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    MyView *myView = [[MyView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:myView];
 }
 
 
