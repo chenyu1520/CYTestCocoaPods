@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/chenyu1520/CYTestCocoaPods"
 
-#s.license      = "MIT (example)"
+  s.license      = "MIT"
   s.author             = { "chenyu" => "chenyu1520@gmail.com" }
 
    s.platform     = :ios, "8.0"
