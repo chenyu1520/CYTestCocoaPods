@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
     s.subspec 'MyTest' do |ssp|
-      ssp.source_files = 'CYTestCocoaPods/GULToast/*.{h,m}'
+      ssp.source_files = 'CYTestCocoaPods/MyTest/*.{h,m}'
     end
 
 
